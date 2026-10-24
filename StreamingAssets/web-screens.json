@@ -1,0 +1,11 @@
+{
+  "screens": [
+    { "title": "Counter-Strike 2", "game": "Counter-Strike", "kind": "twitch", "sources": ["eslcs", "blastpremier", "pgl", "gaules", "ohnepixel"] },
+    { "title": "StarCraft II", "kind": "twitch", "sources": ["esl_sc2", "wardiii", "harstem", "lowko", "beastyqt"] },
+    { "title": "Dota 2", "kind": "twitch", "sources": ["dota2ti", "esl_dota2", "pgl_dota2", "gorgc", "topson"] }
+  ],
+  "topStreamsEndpoint": "",
+  "placement": { "distanceToRoad": 0.55, "height": 4.6, "spacing": 6.4, "arc": 12, "yaw": 0, "offset": [0, 0, 0] },
+  "audio": { "fullVolumeDistance": 6, "silentDistance": 24, "volume": 0.8 },
+  "liveDistance": 45
+}
