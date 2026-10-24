@@ -1,9 +1,11 @@
 const cacheName = "DefaultCompany-WoWPlayground-0.1.0";
 const contentToCache = [
-    "Build/WoW Playground 3.loader.js",
-    "Build/WoW Playground 3.framework.js.unityweb",
-    "Build/WoW Playground 3.data.unityweb",
-    "Build/WoW Playground 3.wasm.unityweb",
+    "Build/WoW Playground 7.loader.js",
+    "Build/WoW Playground 7.framework.js.unityweb",
+    "Build/WoW Playground 7.data.unityweb.5eb2342797.part0",
+    "Build/WoW Playground 7.data.unityweb.5eb2342797.part1",
+    "Build/WoW Playground 7.data.unityweb.5eb2342797.part2",
+    "Build/WoW Playground 7.wasm.unityweb",
     "TemplateData/style.css"
 
 ];

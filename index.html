@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
+      <script src="split-loader.js"></script>
   </head>
   <body>
     <div id="unity-container">
@@ -61,12 +62,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WoW Playground 3.loader.js";
+      var loaderUrl = buildUrl + "/WoW Playground 7.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/WoW Playground 3.data.unityweb",
-        frameworkUrl: buildUrl + "/WoW Playground 3.framework.js.unityweb",
-        codeUrl: buildUrl + "/WoW Playground 3.wasm.unityweb",
+        dataUrl: buildUrl + "/WoW Playground 7.data.unityweb",
+        frameworkUrl: buildUrl + "/WoW Playground 7.framework.js.unityweb",
+        codeUrl: buildUrl + "/WoW Playground 7.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
 
         // If you have a custom web site structure, or want to place multiple Unity build instances on the same page,
@@ -118,7 +119,7 @@
           alert(message);
         });
       };
-      document.body.appendChild(script);
+      wowSplitJoin(config).catch(function (e) { console.error(e); }).then(function () { document.body.appendChild(script); });
     </script>
   </body>
 </html>
